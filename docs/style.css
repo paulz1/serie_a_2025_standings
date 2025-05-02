@@ -1,0 +1,15 @@
+/* Base styles */
+body { font-family: Arial, sans-serif; padding: 20px; }
+h1, h2 { margin-top: 1em; }
+table { border-collapse: collapse; margin-bottom: 1.5em; width: auto; white-space: nowrap; }
+th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+th { background-color: #f4f4f4; }
+tr:nth-child(even) { 
+    background-color: #fafafa; 
+}
+
+/* Column width as percentages */
+table th:nth-child(1), table td:nth-child(1) { width: 5%; }
+table th:nth-child(2), table td:nth-child(2) { width: 30%; text-align: left; }
+table th:nth-child(3), table td:nth-child(3) { width: 5%; }
+table th:nth-child(4), table td:nth-child(4) { width: 40%; }
